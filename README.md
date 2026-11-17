@@ -65,6 +65,26 @@ Popular IDEs and editors for Rust development.
   }
 }
   
+## Emacs config
+File: ~/.emacs.d/init.el
+
+;; Rust mode
+(use-package rust-mode
+  :ensure t
+  :mode "\\.rs\\'"
+  :hook (rust-mode . eglot-ensure))
+
+;; LSP configuration
+(use-package eglot
+  :ensure t
+  :hook (rust-mode . eglot-ensure))
+
+;; Format on save
+(add-hook 'rust-mode-hook
+  (lambda ()
+    (add-hook 'before-save-hook
+      #'rust-format-buffer nil t)))
+
 
 ## 🧩 IDE Extensions & Plugins
 

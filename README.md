@@ -51,6 +51,21 @@ Popular IDEs and editors for Rust development.
 | [Sublime Text](https://www.sublimetext.com/) | Fast and lightweight code editor | Windows / Linux / macOS |
 | [Visual Studio](https://visualstudio.microsoft.com/) | IDE with Rust integration options | Windows |
 
+## VS Code starter config
+
+
+{
+  "rust-analyzer.check.command": "clippy",
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  }
+}
+  
+
 ## 🧩 IDE Extensions & Plugins
 
 Useful extensions that enhance the Rust development experience.

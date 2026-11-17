@@ -281,6 +281,105 @@ For developers who want a practical starting configuration:
 | Documentation | rustdoc |
 
 ---
+## ⭐ Editor Recommendations
+
+Our recommended editors and development environments for Rust programming.
+
+### 🥇 Best Overall — Visual Studio Code
+
+**Recommended for:** Beginners, intermediate developers, and general Rust development.
+
+- rust-analyzer integration
+- CodeLLDB debugging
+- Git and GitHub integration
+- Extensive extension marketplace
+- Lightweight and customizable
+
+**Recommended extensions:**
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
+- [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+- [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+### 🥈 Best Dedicated Rust IDE — RustRover
+
+**Recommended for:** Professional Rust developers and large-scale projects.
+
+- Advanced Rust code intelligence
+- Refactoring and navigation
+- Integrated debugging
+- Cargo and workspace support
+- Intelligent inspections
+
+Website: https://www.jetbrains.com/rust/
+
+### 🥉 Best for Terminal Developers — Neovim
+
+**Recommended for:** Experienced developers who prefer keyboard-driven workflows.
+
+- Highly customizable
+- Fast startup and performance
+- LSP integration
+- Powerful plugin ecosystem
+
+**Recommended plugins:**
+- [rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [crates.nvim](https://github.com/Saecki/crates.nvim)
+- [nvim-dap](https://github.com/mfussenegger/nvim-dap)
+
+### 🚀 Best Modern Editor — Zed
+
+**Recommended for:** Developers looking for a modern, fast coding environment.
+
+- Native Rust language support
+- AI-assisted development features
+- Fast editor experience
+- Collaboration capabilities
+
+Website: https://zed.dev/
+
+### ⚡ Best Minimalist Editor — Helix
+
+**Recommended for:** Developers who prefer a built-in modal editing experience.
+
+- Built-in LSP support
+- Multiple selections
+- Tree-sitter integration
+- Minimal plugin configuration
+
+Website: https://helix-editor.com/
+
+---
+
+## 🏆 Quick Comparison
+
+| Editor | Best For | Difficulty |
+|---|---|---|
+| VS Code | General development | Beginner |
+| RustRover | Professional Rust projects | Beginner–Intermediate |
+| Neovim | Custom workflows | Advanced |
+| Zed | Modern development | Beginner–Intermediate |
+| Helix | Minimalist workflows | Intermediate |
+| Emacs | Highly customizable workflows | Advanced |
+
+## 💡 Our Final Recommendation
+
+| Developer Type | Recommended Setup |
+|---|---|
+| Rust Beginner | VS Code + rust-analyzer |
+| Professional Developer | RustRover |
+| Terminal Enthusiast | Neovim + rustaceanvim |
+| Performance-Focused Developer | Zed |
+| Minimalist Developer | Helix |
+| AI-Assisted Developer | VS Code + Continue / GitHub Copilot |
+
+**Essential Rust tools for every setup:**
+
+`rust-analyzer` · `Cargo` · `rustfmt` · `Clippy` · `CodeLLDB`
+
+> Recommendation principle: Choose an editor that fits your workflow. The Rust toolchain and rust-analyzer matter more than the editor itself.
 
 ## 🤝 Contributing
 
